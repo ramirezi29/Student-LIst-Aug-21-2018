@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		47157EEB212CF5C400E44978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157EEA212CF5C400E44978 /* AppDelegate.swift */; };
-		47157EED212CF5C400E44978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157EEC212CF5C400E44978 /* ViewController.swift */; };
 		47157EF0212CF5C400E44978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47157EEE212CF5C400E44978 /* Main.storyboard */; };
 		47157EF2212CF5C600E44978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47157EF1212CF5C600E44978 /* Assets.xcassets */; };
 		47157EF5212CF5C600E44978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47157EF3212CF5C600E44978 /* LaunchScreen.storyboard */; };
+		47157EFD212CF64800E44978 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157EFC212CF64800E44978 /* Student.swift */; };
+		47157EFF212CF7A600E44978 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157EFE212CF7A600E44978 /* StudentController.swift */; };
+		47157F01212CF9DD00E44978 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157F00212CF9DD00E44978 /* StudentTableViewController.swift */; };
+		47157F03212D09A400E44978 /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157F02212D09A400E44978 /* StudentDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47157EE7212CF5C400E44978 /* Student LIst Aug 21 2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student LIst Aug 21 2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47157EEA212CF5C400E44978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47157EEC212CF5C400E44978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47157EEF212CF5C400E44978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47157EF1212CF5C600E44978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47157EF4212CF5C600E44978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47157EF6212CF5C600E44978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47157EFC212CF64800E44978 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		47157EFE212CF7A600E44978 /* StudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
+		47157F00212CF9DD00E44978 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
+		47157F02212D09A400E44978 /* StudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		47157EE9212CF5C400E44978 /* Student LIst Aug 21 2018 */ = {
 			isa = PBXGroup;
 			children = (
-				47157EEA212CF5C400E44978 /* AppDelegate.swift */,
-				47157EEC212CF5C400E44978 /* ViewController.swift */,
 				47157EEE212CF5C400E44978 /* Main.storyboard */,
+				47157EFC212CF64800E44978 /* Student.swift */,
+				47157EFE212CF7A600E44978 /* StudentController.swift */,
+				47157F00212CF9DD00E44978 /* StudentTableViewController.swift */,
+				47157F02212D09A400E44978 /* StudentDetailViewController.swift */,
 				47157EF1212CF5C600E44978 /* Assets.xcassets */,
 				47157EF3212CF5C600E44978 /* LaunchScreen.storyboard */,
 				47157EF6212CF5C600E44978 /* Info.plist */,
+				47157EEA212CF5C400E44978 /* AppDelegate.swift */,
 			);
 			path = "Student LIst Aug 21 2018";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47157EED212CF5C400E44978 /* ViewController.swift in Sources */,
+				47157EFF212CF7A600E44978 /* StudentController.swift in Sources */,
+				47157EFD212CF64800E44978 /* Student.swift in Sources */,
+				47157F03212D09A400E44978 /* StudentDetailViewController.swift in Sources */,
+				47157F01212CF9DD00E44978 /* StudentTableViewController.swift in Sources */,
 				47157EEB212CF5C400E44978 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
